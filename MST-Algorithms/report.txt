@@ -1,0 +1,11 @@
+Prim1, Prim2 and Kruskals MST Algorithm
+
+Using the sp0pq-big.txt as input to the program,we get 9999 as the weight of the MST
+
+There was a huge difference in the running times of Prim1(binary heap), Prim2(indexed heap) and Kruskals.
+
+For Binary Heap the running time(sp0-big.txt) was 3922ms
+For Indexed Heap the running time(sp0-big.txt) was 626ms
+For Kruskals algorithm the running time(sp0-big.txt) was 3653ms
+
+Thus the Prim2 version is faster than Prim1 and kruskals.
